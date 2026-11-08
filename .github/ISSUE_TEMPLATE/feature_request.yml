@@ -1,12 +1,12 @@
 name: Product feature request (PFR)
-description: Suggest a new feature or an improvement for CandlePattern Lite or Pro.
+description: Suggest a new feature or an improvement for Candlewise Lite or Pro.
 title: "[PFR] "
 labels: ["pfr", "needs-review"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping shape CandlePattern. Please check the [roadmap](../blob/main/ROADMAP.md) first, your idea may already be coming.
+        Thanks for helping shape Candlewise. Please check the [roadmap](../blob/main/ROADMAP.md) first, your idea may already be coming.
         One feature per request makes the review faster. Every request is read; accepted ones are added to the roadmap.
 
   - type: dropdown

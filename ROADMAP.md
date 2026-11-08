@@ -1,6 +1,6 @@
 # Roadmap
 
-What is coming to CandlePattern Lite and Pro. Items are grouped by status, not by date; there are no release dates until a version is ready.
+What is coming to Candlewise Lite and Pro. Items are grouped by status, not by date; there are no release dates until a version is ready.
 
 Statuses:
 

@@ -2,7 +2,7 @@
 
 ## 1.00: first release (upcoming)
 
-### CandlePattern Lite 1.00
+### Candlewise Lite 1.00
 
 - 22 classic candlestick patterns: engulfing, harami, harami cross, piercing line, dark cloud cover, morning and evening star, morning and evening doji star, three white soldiers, three black crows, three inside up/down, three outside up/down, hammer, hanging man, inverted hammer, shooting star, doji, dragonfly doji, gravestone doji, tweezer top and bottom.
 - Pattern zones and labels on the chart; labels are placed in free space so they don't cover candles or each other.
@@ -10,7 +10,7 @@
 - Confirmation status shown on each zone: waiting, confirmed, failed or unconfirmed.
 - Light and dark themes. The chart is restyled to match, and your own chart colours come back when you remove the indicator.
 
-### CandlePattern Pro 1.00
+### Candlewise Pro 1.00
 
 Everything in Lite, plus:
 

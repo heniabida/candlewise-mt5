@@ -1,13 +1,15 @@
-# CandlePattern for MetaTrader 5
+<img src="docs/images/candlewise-pro-200.png" width="120" alt="Candlewise logo">
+
+# Candlewise for MetaTrader 5
 
 Candlestick pattern indicators for MetaTrader 5, in two editions:
 
-- **CandlePattern Lite** (free): 22 classic candlestick patterns highlighted on your chart.
-- **CandlePattern Pro** (paid): 63 patterns, a multi-market scanner, a signal feed, alerts and per-symbol pattern statistics.
+- **Candlewise Lite** (free): 22 classic candlestick patterns highlighted on your chart.
+- **Candlewise Pro** (paid): 63 patterns, a multi-market scanner, a signal feed, alerts and per-symbol pattern statistics.
 
 This repository is the public home of the project: the roadmap, the change log, and the place to send feature requests. It contains no source code. The indicators are distributed only through the MQL5 Market.
 
-![CandlePattern Pro: chart and scanner](docs/images/pro_dark_tab_scanner.png)
+![Candlewise Pro: chart and scanner](docs/images/pro_dark_tab_scanner.png)
 
 ## Editions
 
@@ -38,7 +40,7 @@ Pattern statistics shown by the indicator describe past behaviour on your chart.
 
 ## Screenshots
 
-| CandlePattern Lite, dark | CandlePattern Lite, light |
+| Candlewise Lite, dark | Candlewise Lite, light |
 |---|---|
 | ![Lite dark](docs/images/lite_dark.png) | ![Lite light](docs/images/lite_light.png) |
 
@@ -52,8 +54,8 @@ Pattern statistics shown by the indicator describe past behaviour on your chart.
 
 ## Get it
 
-- CandlePattern Lite: MQL5 Market link coming with the first release.
-- CandlePattern Pro: MQL5 Market link coming with the first release.
+- Candlewise Lite: listed on the MQL5 Market as "Candlewise". Link coming with the first release.
+- Candlewise Pro: MQL5 Market link coming with the first release.
 
 ## Roadmap
 
@@ -82,4 +84,4 @@ For questions about a purchase, write to me through my MQL5 profile.
 
 ---
 
-© CandlePattern. All rights reserved. The indicators, images and text in this repository may not be copied or redistributed.
+© Candlewise. All rights reserved. The indicators, images and text in this repository may not be copied or redistributed.
