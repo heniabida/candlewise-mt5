@@ -59,7 +59,7 @@ Pattern statistics shown by the indicator describe past behaviour on your chart.
 
 ## Roadmap
 
-See [ROADMAP.md](ROADMAP.md) for what is being built and what comes next. Features appear in the table above only once they are released.
+See the [roadmap board](https://github.com/users/heniabida/projects/1) or [ROADMAP.md](ROADMAP.md) for what is being built and what comes next. Features appear in the table above only once they are released.
 
 ## Request a feature
 

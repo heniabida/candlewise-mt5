@@ -2,6 +2,8 @@
 
 What is coming to Candlewise Lite and Pro. Items are grouped by status, not by date; there are no release dates until a version is ready.
 
+The same items are on the [roadmap board](https://github.com/users/heniabida/projects/1), where each card moves across the columns as work goes on.
+
 Statuses:
 
 - **In testing**: built and being tested; ships in an upcoming update.
