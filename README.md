@@ -18,7 +18,7 @@ This repository is the public home of the project: the roadmap, the change log, 
 | Strength score (1–5) from trend and swing context | ✓ | ✓ |
 | Confirmation status (waiting, confirmed, failed) | ✓ | ✓ |
 | Light and dark themes | ✓ | ✓ |
-| Values for Expert Advisors (`iCustom` buffers) | ✓ | ✓ |
+| Pattern data your own Expert Advisor can read with `iCustom` (no EA included) | | ✓ |
 | On-chart toolbar (filters, labels, theme) | | ✓ |
 | Pattern card: context, confirmation, history on this symbol | | ✓ |
 | Preview of the pattern forming on the open candle | | ✓ |

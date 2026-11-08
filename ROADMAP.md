@@ -46,7 +46,7 @@ Each item has a PFR number. When an item comes from a feature request, its issue
 | PFR | Feature | Edition | Why |
 |---|---|---|---|
 | [PFR-030](../../issues/15) | Telegram alerts through a small companion Expert Advisor | Pro | MetaTrader does not let indicators send web requests, so a companion EA will deliver alerts to Telegram. |
-| [PFR-031](../../issues/16) | Guide and sample Expert Advisor for reading the indicator values with `iCustom` | Lite, Pro | Use the patterns in your own automated strategy. |
+| [PFR-031](../../issues/16) | Guide and sample Expert Advisor for reading the indicator values with `iCustom` | Pro | Use the patterns in your own automated strategy. |
 
 ## Exploring
 

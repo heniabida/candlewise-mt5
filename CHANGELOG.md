@@ -9,13 +9,13 @@
 - Strength score (1–5) from the prior move and swing high/low context.
 - Confirmation status: waiting, confirmed, failed or unconfirmed.
 - Light and dark themes.
-- Values for Expert Advisors through `iCustom`: direction, strength and pattern id.
 
 ### CandlePattern Pro 1.00
 
 Everything in Lite, plus:
 
 - 63 candlestick patterns.
+- Pattern data your own Expert Advisor can read through `iCustom`: direction, strength and pattern id (no EA included).
 - On-chart toolbar: bullish, bearish and indecision filters, minimum strength, label mode, zones, theme, panel.
 - Pattern card with context, confirmation, history on this symbol and the invalidation price.
 - Preview of the pattern forming on the open candle.
