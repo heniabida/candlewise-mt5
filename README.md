@@ -4,8 +4,8 @@
 
 Candlestick pattern indicators for MetaTrader 5, in two editions:
 
-- **Candlewise Lite** (free): 22 classic candlestick patterns highlighted on your chart.
-- **Candlewise Pro** (paid): 63 patterns, a multi-market scanner, a signal feed, alerts and per-symbol pattern statistics.
+- **[Candlewise Lite](https://www.mql5.com/en/market/product/207061)** (free): 22 classic candlestick patterns highlighted on your chart.
+- **[Candlewise Pro](https://www.mql5.com/en/market/product/207067)** (paid): 63 patterns, a multi-market scanner, a signal feed, alerts and per-symbol pattern statistics.
 
 This repository is the public home of the project: the roadmap, the change log, and the place to send feature requests. It contains no source code. The indicators are distributed only through the MQL5 Market.
 
@@ -54,8 +54,10 @@ Pattern statistics shown by the indicator describe past behaviour on your chart.
 
 ## Get it
 
-- Candlewise Lite: listed on the MQL5 Market as "Candlewise". Link coming with the first release.
-- Candlewise Pro: MQL5 Market link coming with the first release.
+- Candlewise Lite (free), listed on the MQL5 Market as "Candlewise": https://www.mql5.com/en/market/product/207061
+- Candlewise Pro: https://www.mql5.com/en/market/product/207067
+
+Install from the Market page, or in MetaTrader 5 open the Market tab in the Toolbox window and search for Candlewise.
 
 ## Roadmap
 
