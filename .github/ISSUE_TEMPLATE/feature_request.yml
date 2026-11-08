@@ -1,0 +1,101 @@
+name: Product feature request (PFR)
+description: Suggest a new feature or an improvement for CandlePattern Lite or Pro.
+title: "[PFR] "
+labels: ["pfr", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping shape CandlePattern. Please check the [roadmap](../blob/main/ROADMAP.md) first, your idea may already be coming.
+        One feature per request makes the review faster. Every request is read; accepted ones are added to the roadmap.
+
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Edition
+      description: Which edition is this request for?
+      options:
+        - Lite (free)
+        - Pro
+        - Both
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Patterns (new pattern or a rule change)
+        - Alerts and notifications
+        - Scanner
+        - Signal feed
+        - Pattern Lab (statistics)
+        - Chart display (zones, labels, colours, toolbar)
+        - Settings
+        - Use in Expert Advisors (iCustom)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What do you want to do, and what stops you today?
+      description: Describe your trading situation and the problem, not only the solution.
+      placeholder: "Example: I trade H1 on gold and miss patterns when I am away from the screen."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Your idea
+      description: How should it work? Which settings, which buttons, what would you see on the chart?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What do you use instead today?
+      description: Another indicator, a manual routine, nothing at all...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: importance
+    attributes:
+      label: How important is this for you?
+      options:
+        - Nice to have
+        - Important for my trading
+        - I cannot use the indicator without it
+    validations:
+      required: true
+
+  - type: input
+    id: markets
+    attributes:
+      label: Markets and timeframes you trade (optional)
+      placeholder: "Example: EURUSD, XAUUSD on M15 and H1"
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or examples (optional)
+      description: Drag images here. A marked-up chart often explains more than text.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I checked the roadmap and the open requests, and this is not already listed.
+          required: true
+        - label: I understand that the maintainer reviews every request and decides what is built and when.
+          required: true

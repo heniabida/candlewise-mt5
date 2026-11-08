@@ -1,0 +1,22 @@
+# Only the owner publishes in this repository: close pull requests opened by anyone else.
+# Uses pull_request_target without checking out the PR, so no code from the PR ever runs.
+name: Close external pull requests
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  close:
+    if: github.event.pull_request.user.login != github.repository_owner
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment and close
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: |
+          gh pr close "$PR_URL" --comment "Thanks! This project does not accept pull requests. Please open a Product feature request from the Issues tab instead."
